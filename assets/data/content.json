@@ -1,0 +1,43 @@
+{
+   "overviewTitle": "Overview",
+
+    "subheader": [{
+        "title0":"Dashboard",
+        "title1":"Overview", 
+        "title2":"Tickets", 
+        "title3":"Ideas", 
+        "title4":"Contacts",
+        "title5":"Agents", 
+        "title6":"Articles", 
+        "title7":"Settings", 
+        "title8":"Subscription"
+    }],
+
+    "topcard": [{
+            "status1": "unresolved",
+            "amount1": 60
+        },
+        {
+            "status2": "overdue",
+            "amount2": 16
+        },
+        {
+            "status": "open",
+            "amount": 43
+        },
+        {
+            "status": "on hold",
+            "amount": 6
+        }
+    ],
+
+ 
+        "resolved": "442",
+        "received": "426",
+        "average1": "30m",
+        "average2": "33h 8min",
+        "resolution": "95%"
+    }
+
+
+

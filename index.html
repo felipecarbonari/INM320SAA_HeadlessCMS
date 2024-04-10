@@ -1,0 +1,492 @@
+
+<!DOCTYPE html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <div class="row flex-nowrap">
+
+            <!-- SIDE MENU -->
+            <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+
+                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                    <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                        <img src="Icons/1.png" alt="Tickets" width="30" height="30" class="rounded-circle">
+                        <span class="fs-5 d-none d-sm-inline" id="st0"></span>
+                    </a>
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                        
+                        <li class="nav-item">
+                            <a href="#" class="nav-link align-middle px-0">
+                                <i class="fs-4 bi-house"></i> 
+                                <img src="Icons/2.png" alt="Tickets" width="30" height="30" class="rounded-circle">
+                                <span class="ms-1 d-none d-sm-inline" id="st1"></span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-speedometer2"></i> 
+                                <img src="Icons/3_1.png" alt="Tickets" width="30" height="30" class="rounded-circle">
+                                <span class="ms-1 d-none d-sm-inline" id="st2"></span> </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-table"></i> 
+                                <img src="Icons/4.png" alt="Tickets" width="30" height="30" class="rounded-circle">
+                                <span class="ms-1 d-none d-sm-inline" id="st3"></span></a>
+                        </li>
+
+                        <li>
+                            <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+                                <i class="fs-4 bi-bootstrap"></i> 
+                                <img src="Icons/5.png" alt="Tickets" width="30" height="30" class="rounded-circle">
+                                <span class="ms-1 d-none d-sm-inline" id="st4"></span></a>
+                        </li>
+
+                        <li>
+                            <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-grid"></i>
+                                <img src="Icons/6.png" alt="Tickets" width="30" height="30" class="rounded-circle">
+                                <span class="ms-1 d-none d-sm-inline" id="st5"></span> </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-people"></i>
+                                <img src="Icons/7.png" alt="Tickets" width="30" height="30" class="rounded-circle">
+                                <span class="ms-1 d-none d-sm-inline" id="st6"></span> </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-people"></i>
+                                <img src="Icons/8.png" alt="Tickets" width="30" height="30" class="rounded-circle">
+                                <span class="ms-1 d-none d-sm-inline" id="st7"></span> </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-people"></i>
+                                <img src="Icons/9.png" alt="Tickets" width="30" height="30" class="rounded-circle">
+                                <span class="ms-1 d-none d-sm-inline" id="st8"></span> </a>
+                        </li>
+
+                    </ul>
+                   
+                </div>
+                
+            </div>
+
+            <!-- OVERVIEW SECTION (right) -->
+            <div class="col py-3" id="overviewsection"> 
+
+              <!-- HEADER -->
+              <div class="container">
+                <div class="container overflow-hidden">
+                  <div class="row">
+
+                    <!-- TITLE -->
+                    <div class="col" >
+                      <div class="pt-6">
+                        <h2 id="ot"></h2>
+                      </div>
+                    </div>
+
+
+                    <!-- Left Icons -->
+                    <div class="col" id="left icons">
+                      <div class="d-flex justify-content-end">
+
+                        <div class="p-2 pt-3">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#C5C7CD" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                          </svg>
+                        </div>
+
+                        <div class="p-2 pt-3">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#C5C7CD" class="bi bi-bell-fill" viewBox="0 0 16 16">
+                            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5 5 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901"/>
+                          </svg>
+                        </div>
+
+                        <div class="p-1 pt-3" style="height: 32px;">
+                          <div class="vr"></div>
+                        </div>
+
+                        <div class="p-2">
+                          <h5 class="pt-2">Jones Ferdinand</h5>
+                        </div>
+
+                        <div class="p-1">
+                          <a class="accountphoto" href="#">
+                            <img src="Icons/photo.png">
+                          </a>
+                        </div>
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- STATUS CARDS -->
+              <div class="row p-4">
+
+                  <div class="card" id="Unsolved" style="width: 12rem; height: 8rem;">
+                    <div class="card-body">
+                      <p class="card-text">Unsolved</p>
+                      <h2 class="card-title" id="top1"></h2>
+                    </div>
+                  </div>
+
+                  <div class="card" id="Overdue" style="width: 12rem; height: 8rem;">
+                    <div class="card-body">
+                      <p class="card-text">Overdue</p>
+                      <h2 class="card-title" id="top2"></h2>
+                    </div>
+                  </div>
+
+                  <div class="card" id="Open" style="width: 12rem; height: 8rem;">
+                    <div class="card-body">
+                      <p class="card-text">Open</p>
+                      <h2 class="card-title" id="top3"></h2>
+                    </div>
+                  </div>
+
+                  <div class="card" id="On Hold" style="width: 12rem; height: 8rem;">
+                    <div class="card-body">
+                      <p class="card-text">On hold</p>
+                      <h2 class="card-title" id="top4"></h2>
+                    </div>
+                  </div>
+
+              </div>
+
+              <!-- TODAY'S TRENDS SECTION -->
+              <div class="p-4 pt-4">
+                <div class="row" id="todaystrends">
+                  
+                  <div class="col">
+                    <div class="p-2" style="text-align: left;">
+                      <h3>Today's trends</h3>
+                    </div>
+
+                    <div class="hstack gap-3">
+
+                      <div class="p-2">
+                        <h6>as of 25 May 2019, 09:41 PM</h6>
+                      </div>
+
+                      <div class="pb-1 ms-auto">
+                        <hr class="custom-hr">
+                      </div>
+
+                      <div class="ml-n2">
+                        <h6 class="semi">Today</h6>
+                      </div>
+
+                      <div class="pb-1 ms-auto">
+                        <hr class="custom-hr2">
+                      </div>
+
+                      <div class="ml-n2">
+                        <h6 class="semi">Yesterday</h6>
+                      </div>
+
+                    </div>
+                    
+                    <div class="card chart-container">
+                      <canvas id="chart"></canvas>
+                    </div>
+
+                  </div>
+
+
+                  <!-- ADDITIONAL INFORMATION -->
+                  <div class="col">
+                    <div class="container text-center">
+                      <div class="card" id="additional">
+                        <ul class="list-group list-group-flush">
+
+                          <li class="list-group-item">
+                            <h4>Resolved</h4>
+                            <h2 id="it1"></h2>
+                          </li>
+
+                          <li class="list-group-item">
+                            <h4>Recieved</h4>
+                            <h2 id="it2"></h2>
+                          </li>
+
+                          <li class="list-group-item">
+                            <h4>Average first response time</h4>
+                            <h2 id="it3"></h2>
+                          </li>
+
+                          <li class="list-group-item">
+                            <h4>Average response time</h4>
+                            <h2 id="it4"></h2>
+                          </li>
+
+                          <li class="list-group-item">
+                            <h4>Resolution within SLA</h4>
+                            <h2 id="it5"></h2>
+                          </li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <!-- TICKETS AND TASKS -->
+              <div class="p-4 pt-4">
+                <div class="row justify-content-between">
+
+                  <!-- UNRESOLVED TICKETS -->
+                  <div class="col" id="cardbg">
+                    <div class="hstack gap-3">
+
+                      <div class="p-2">
+                        <h3>Unresolved tickets</h3>
+                      </div>
+
+                      <div class="p-2 ms-auto">
+                        <h5 class="view">View detials</h5>
+                      </div>
+
+                    </div>
+
+                    <div class="hstack gap-3">
+
+                      <div class="p-2">
+                        <h6>Group:</h6>
+                      </div>
+
+                      <div>
+                        <h6 class="Support">Support</h6>
+                      </div>
+
+                    </div>
+
+                    
+                    <div class="card-4">
+                      <ul class="list-group list-group-flush">
+
+                        <li class="list-group-item">
+                          <div class="hstack gap-3">
+
+                            <div class="p">
+                              <h5>Waiting on Feature Request</h5> 
+                            </div>
+      
+                            <div class="p-2 ms-auto">
+                              <h5 class="semi">4238</h5>
+                            </div>
+      
+                          </div>
+                        </li>
+
+                        <li class="list-group-item">
+                          <div class="hstack gap-3">
+
+                            <div class="p">
+                              <h5>Awaiting Customer Response</h5>
+                            </div>
+      
+                            <div class="p-2 ms-auto">
+                              <h5 class="semi">1005</h5>
+                            </div>
+      
+                          </div>
+                        </li>
+
+                        <li class="list-group-item">
+                          <div class="hstack gap-3">
+
+                            <div class="p">
+                              <h5>Awaiting Developer Fix</h5>
+                            </div>
+      
+                            <div class="p-2 ms-auto">
+                              <h5 class="semi">914</h5>
+                            </div>
+      
+                          </div>
+                        </li>
+
+                        <li class="list-group-item">
+                          <div class="hstack gap-3">
+
+                            <div class="p">
+                              <h5>Pending</h5>
+                            </div>
+      
+                            <div class="p-2 ms-auto">
+                              <h5 class="semi">281</h5>
+                            </div>
+      
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <!-- TASKS -->
+  
+                    <div class="col mx-4" id="cardbg2">
+                      
+                      <div class="hstack gap-3">
+  
+                        <div class="p-2">
+                          <h3>Tasks</h3>
+                        </div>
+  
+                        <div class="p-2 ms-auto">
+                          <h5 class="view">View all</h5>
+                        </div>
+  
+                      </div>
+
+                      <div class="p-2">
+                        <h6>Today</h6>
+                      </div>
+                   
+                      <ul class="list-group list-group-flush">
+
+                        <li class="list-group-item">
+                          <div class="hstack gap-3">
+  
+                            <div class="p-2">
+                              <h5 class="semi">Create new task</h5>
+                            </div>
+      
+                            <div class="p-2 ms-auto">
+                              <button type="button" class="plus-button">+</button>
+                            </div>
+      
+                          </div>
+                        </li>
+
+                        <li class="list-group-item">
+                          <div class="hstack gap-3">
+                            <div class="p-2">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                
+                                <label class="form-check-label" for="flexCheckDefault">
+                                  <h5>Finish ticket update</h5>
+                                </label>
+                              </div>
+                            </div>
+
+                            <div class="p-2 ms-auto">
+                              <h5 class="badge text-bg-warning"><span class="alert">URGENT</span></h5>
+                            </div>
+                          </div>
+
+                        </li>
+
+                        <li class="list-group-item">
+                          <div class="hstack gap-3">
+  
+                            <div class="p-2">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                  <h5>Create new ticket example</h5>
+                                </label>
+                              </div>
+                            </div>
+
+                            <div class="p-2 ms-auto">
+                              <h5 class="badge text-bg-success"><span class="alert">NEW</span></h5>
+                            </div>
+
+                        </li>
+
+                        <li class="list-group-item">
+                          <div class="hstack gap-3">
+  
+                            <div class="p-2">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                
+                                <label class="form-check-label" for="flexCheckChecked">
+                                  <h5>Update ticket report </h5>
+                                </label>
+                              </div>
+                            </div>
+
+                            <div class="p-2 ms-auto">
+                              <h5 class="badge text-bg-light"><span class="default">DEFAULT</span></h5>
+                            </div>
+
+                        </li>
+
+                        
+                      </ul>
+                    </div>
+                  </div>
+
+                  
+
+                </div>
+              </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+    <script src="assets/main.js"></script>
+    <script src="assets/xhr.js"></script>
+    
+
+<!-- CHART JAVA SCRIPT -->
+<script>
+      const ctx = document.getElementById("chart").getContext('2d');
+      const myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: ["0", "5", "10",
+          "15", "20", "25", "30"],
+          datasets: [{
+            label: 'Today',
+            backgroundColor: 'rgba(161, 198, 247, 1)',
+            borderColor: 'rgb(47, 128, 237)',
+            data: [20, 30, 0, 40, 50, 60, 10],
+          }]
+        },
+        options: {
+          scales: {
+            yAxes: [{
+              ticks: {
+                beginAtZero: true,
+              }
+            }]
+          }
+        },
+      });
+</script>
+    
+
+</body>
+
+</html>
